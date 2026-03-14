@@ -1,4 +1,4 @@
-# SBF (Sparse Binary Factorization)
+ # SBF (Sparse Binary Factorization)
 SBF is a solution to the community discovery problem from undirected graphs that uses Metropolis-Hastings sampling (you don't need to know anything about that in order to use this package). 
 The discovered communities can be overlapping or disjoint. 
 The implementation runs faster than and scales to bigger graphs than any other community discovery packages we have tried - for example, it has been used to discover 500,000 communities from a graph with 100 Million nodes and 5 Billion edges in less than 2 hours using 16 threads. 
